@@ -1,0 +1,1104 @@
+
+.main-head{
+    height: 90px;
+    width: 100%;
+    background-color: white
+}
+.name-head{
+    height: 90px;
+    width: 35%;
+    background-color: white;
+    float: left;
+}
+.logo{
+    height: 90px;
+    width: 30%;
+    float: left;
+    background: rgb(44, 41, 41);
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+.logo img{
+    height: 50px;
+    justify-content: center;
+    width: 90%;
+}
+.brand-name{
+    height: 90px;
+    background-color: rgb(44, 41, 41);
+    color: #ffffff;
+    float: left;
+    width: 70%;
+    text-align: center;
+}
+
+
+.brand-name h1{
+    padding: 12px;
+    font-size: 50px;
+    text-shadow: 2px 2px #ffffff;
+}
+.mail-head{
+    height: 40px;
+    background-color: white;
+    float: left;
+    width: 35%;
+    text-align: center;
+}
+.mail-head ul{
+    display: inline-flex;
+    list-style: none;
+    color:black;
+}
+.mail-head ul li{
+    width: 180px;
+    margin: 10px;
+    padding: 1px;
+}
+.mail-head .fa{
+    margin-right: 8px;
+}
+
+.slideshow-main{
+    width: 100%;
+    height: 600px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: #e8e8e8;
+}
+.slideshow-main img{
+    width: 100%;
+    height: 600px;
+    display: none;
+}
+
+
+
+/* end */
+.soc-head{
+    height: 40px;
+    background-color: rgb(44, 41, 41);
+    float: right;
+    width: 30%;
+    text-align: center;
+    padding: 5px;
+}
+.sub-top{
+    height: 40px;
+    float: right;
+    width: 65%;
+}
+.sub-bottom{
+    height: 50px;
+    background-color: rgb(44, 41, 41);
+    float: right;
+    width: 65%;
+    text-align: center;
+}
+.sub-bottom ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.sub-bottom ul li{
+    width: 100px;
+    margin: 6px;
+    padding: 8px;
+}
+.sub-bottom ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .sub-bottom ul li:hover{
+    background: #2bab0d;
+    border-radius: 4px;
+}
+.sub-bottom .fa{
+    margin-right: 8px;
+}
+.pet-menu-1{
+    display: none;
+
+}
+.sub-bottom ul li:hover .pet-menu-1{
+    display: block;
+    position: absolute;
+    background: rgb(0,100,0);
+    background: rgb(44, 41, 41);
+    margin-top: 6px;
+    margin-left: 6px;
+}
+.sub-bottom ul li:hover .pet-menu-1 ul{
+    display: block;
+    margin: 6px;
+}
+.sub-bottom ul li:hover .pet-menu-1 ul li{
+    width: 90px;
+    padding: 2px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.sub-bottom ul li:hover .pet-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.sub-bottom ul li:hover .pet-menu-1 ul li a:hover{
+    color: #b2ff00;
+}
+
+
+.wc-line{
+    height: 30px;
+    width: 100%;
+    background-color: burlywood;
+}
+
+
+.about-main{
+    height: 300px;
+    width: 100%;
+    background-color: white;
+}
+.abt-det{
+    height: 300px;
+    width: 50%;
+    background-color: white;
+    float: left;
+    position: relative;
+}
+.sub-det{
+    height: 300px;
+    width: 95%;
+    position: absolute;
+    left: 5%;   
+}
+.abt-det h3{
+    padding: 8px;
+    font-size: 25px;
+}
+.abt-det h2{
+    font-size: 45px;
+}
+.abt-det h3::after{
+    background: yellow;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+.abt-det h3::after{
+    left: 0.5em;
+    margin-right: -50%;
+}
+.abt-det p{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.pets-image1{
+    height: 300px;
+    width: 25%;
+    background-color: white;
+    float: left;
+    position: relative;
+}
+.pets-image1 img{
+    height: 120px;
+    position: absolute;
+    bottom: 5%;
+    width: 60%;
+    right: 5%;
+}
+.pets-image1 img:hover, .pets-image2 img:hover, .pets-image3 img:hover, .pets-image4 img:hover{
+    transform: scale(1.1);
+}
+.pets-image2{
+    height: 300px;
+    width: 25%;
+    background-color: white;
+    float: right;
+    position: relative;
+}
+.pets-image2 img{
+    height: 90%;
+    width: 92%;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+.about-bottom{
+    height: 300px;
+    width: 100%;
+    background-color: white;
+}
+.det-a{
+    height: 300px;
+    width: 17%;
+    background-color: white;
+    float: left;
+    justify-content: center;
+    text-align: center;
+}
+.det-b{
+    height: 300px;
+    width: 16%;
+    background-color: white;
+    float: left;
+    justify-content: center;
+    text-align: center;
+}
+.det-c{
+    height: 300px;
+    width: 17%;
+    background-color: white;
+    float: left;
+    justify-content: center;
+    text-align: center;
+}
+.det-a i, .det-b i,.det-c i{
+    font-size: 40px;
+    padding: 55px;
+}
+.det-a h3, .det-b h3,.det-c h3{
+    font-size: 35px;
+}
+.det-a h4, .det-b h4,.det-c h4{
+    font-size: 30px;
+}
+.pets-image3{
+    height: 300px;
+    width: 25%;
+    background-color: white;
+    float: left;
+    position: relative;
+}
+.pets-image3 img{
+    height: 150px;
+    width: 60%;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+.pets-image4{
+    height: 300px;
+    width: 25%;
+    background-color: white;
+    float: right;
+    position: relative;
+}
+.pets-image4 img{
+    height: 200px;
+    width: 80%;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+
+}
+
+.pet-container{
+    height: 100px;
+    width: 100%;
+    background-color: azure;
+}
+.pet-container h3{
+    text-align: center;
+    font-size: 45px;
+    padding: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pets-det1{
+    height: 300px;
+    width: 100%;
+    background-color: #eeee;
+}
+.btn_pet{
+    width: 40%;
+}
+.dog-list{
+    height: 300px;
+    width: 33.33%;
+    background-color: white;
+    float: left;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+.dog-list .btn_pet{
+    position: absolute;
+    left: 30%;
+    bottom: 15%;
+}
+.dog-list img{
+    height: 260px;
+    width: 90%;
+}
+.dog-list img:hover, .cat-list img:hover, .aquatic-list img:hover, .bird-list img:hover, .rabbit-list img:hover, .smallpet-list img:hover{
+    transform: scale(1.1);
+}
+.cat-list{
+    height: 300px;
+    width: 33.33%;
+    background-color: white;
+    float: left;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+.cat-list .btn_pet{
+    position: absolute;
+    left: 30%;
+    bottom: 15%;
+}
+.cat-list img{
+    height: 260px;
+    width: 90%;
+}
+.bird-list{
+    height: 300px;
+    width: 33.33%;
+    background-color: white;
+    float: left;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+.bird-list .btn_pet{
+    position: absolute;
+    left: 30%;
+    bottom: 15%;
+}
+.bird-list img{
+    height: 260px;
+    width: 90%;
+}
+.pets-det2{
+    height: 300px;
+    width: 100%;
+    background-color: white;
+}
+.aquatic-list{
+    height: 300px;
+    width: 33.33%;
+    background-color: white;
+    float: left;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+.aquatic-list .btn_pet{
+    position: absolute;
+    left: 30%;
+    bottom: 15%;
+}
+.aquatic-list img{
+    height: 260px;
+    width: 90%;
+}
+.rabbit-list{
+    height: 300px;
+    width: 33.33%;
+    background-color: white;
+    float: left;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+.rabbit-list .btn_pet{
+    position: absolute;
+    left: 30%;
+    bottom: 15%;
+}
+.rabbit-list img{
+    height: 260px;
+    width: 90%;
+}
+.smallpet-list{
+    height: 300px;
+    width: 33.33%;
+    background-color: white;
+    float: left;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+.smallpet-list .btn_pet{
+    position: absolute;
+    left: 30%;
+    bottom: 15%;
+}
+.smallpet-list img{
+    height: 260px;
+    width: 90%;
+}
+
+
+.vid-main{
+    height: 450px;
+    width: 100%;
+}
+.det-abt{
+    height: 450px;
+    width: 50%;
+    float: left;
+    background: #e91e63;
+}
+.vid-tab{
+    height: 450px;
+    width: 50%;
+    float: right;
+}
+
+.ser-main{
+    height: 100px;
+    width: 100%;
+    background: black;
+}
+.ser-main h4{
+    font-size: 25px;
+    width: 100%;
+    color: orangered;
+    text-align: center;
+    padding: 8px;
+}
+.ser-main h4::before, .ser-main h4::after{
+    background: orangered;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: middle;
+    width: 20%;    
+}
+.ser-main h4::before{
+    right: 0.5em;
+    margin-left: -50%;
+}
+.ser-main h4::after{
+    left: 0.5em;
+    margin-right: -50%;
+}
+.ser-main h2{
+    font-size: 38px;
+    color: red;
+    text-align: center;
+}
+.ser-det1{
+    height: 300px;
+    width: 100%;    
+}
+.ser-a{
+    height: 300px;
+    width: 33.33%;
+    float: left;
+    background: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.ser-a .fa-solid, .ser-b .fa-solid, .ser-c .fa-solid, .ser-d .fa-solid, .ser-e .fa-solid, .ser-f .fa-solid{
+    font-size: 90px;
+    padding: 40px;
+}
+
+.ser-a ,.ser-b, .ser-c, .ser-d, .ser-e, .ser-f{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(19, 18, 18);
+}
+.ser-b{
+    height: 300px;
+    width: 33.33%;
+    float: left;
+    background: white;
+    text-align: center;
+    justify-content: center;
+}
+.ser-c{
+    height: 300px;
+    width: 33.33%;
+    float: left;
+    background: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.ser-a:hover ,.ser-b:hover, .ser-c:hover, .ser-d:hover, .ser-e:hover, .ser-f:hover{
+    background-color: orange;
+}
+.ser-det2{
+    height: 300px;
+    width: 100%;    
+}
+.ser-d{
+    height: 300px;
+    width: 33.33%;
+    float: left;
+    background: white;
+    text-align: center;
+    justify-content: center;
+}
+.ser-e{
+    height: 300px;
+    width: 33.33%;
+    float: left;
+    background: white;
+    text-align: center;
+    justify-content: center;
+}
+.ser-f{
+    height: 300px;
+    width: 33.33%;
+    float: left;
+    background: white;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.staff-head{
+    padding: 8px;
+    height: 100px;
+    width: 100%;
+    background: rgb(170, 127, 127);
+}
+.staff-head h3{
+    padding: 8px;
+    font-size: 50px;
+    text-align: center;
+    color: orange;
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.staff-det{
+    height: 500px;
+    width: 100%;
+    background: black;
+}
+
+.st-a{
+    height: 500px;
+    width: 33.33%;
+    background: white;
+    float: left;
+    align-items: center;
+}
+.staff-1{
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+    width: 95%;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+}
+.staff-1 img, .staff-2 img, .staff-3 img{
+    height: 420px;
+    width: 95%;
+    padding: 9px;
+}
+.st-b{
+    height: 500px;
+    width: 33.33%;
+    background: white;
+    float: left;
+}
+.staff-2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 95%;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+}
+.st-c{
+    height: 500px;
+    width: 33.33%;
+    background: white;
+    float: left;
+}
+.staff-3{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 95%;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+/* testimonial */
+
+.cmt{
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    background: rgb(29, 26, 26);
+}
+.slide-row{
+    display: flex;
+    width: 3200px;
+    transition: 0.5s;
+}
+.slide-col{
+    width: 1100px;
+    height: 400px;
+    position: relative;
+}
+.user-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+.user-img img{
+    height: 100%;
+    border-radius: 10px;
+}
+.user-text{
+    background: #2d3a59;
+    width: 520px;
+    height: 270px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 10px;
+    color: #d3d4d6;
+    padding: 45px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.user-text p{
+    font-size: 18px;
+    line-height: 24px;
+}
+.user-text h3{
+    margin: 35px 0 5px;
+    color: #fff;
+}
+.test-container{
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.indicator{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -30%;
+}
+.btn{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin: 4px;
+    border-radius: 15px;
+    background: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.t-active{
+    width: 45px;
+}
+.testimonial{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+
+/* FOOTER */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+.soc-head a{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.soc-head a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+
+/* login */
+/* Bordered form */
+.login-header{
+    height: 70px;
+    width: 100%;
+}
+.login-header h2{
+    font-size: 45px;
+    color: rebeccapurple;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.login-main{
+    height: 560px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url(images/360_F_260017906_I3iTlhPqmkjdw6c9gTJkLcjN1BDjqgYy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form {
+    background-color: white;
+    align-items: center;
+    width: 35%;
+    border: 4px solid #f1f1f1;
+    position: absolute;
+    left: 33%;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  /* Set a style for all buttons */
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 28px;
+    background-color: #f44336;
+    position: absolute;
+    left: 40%;
+    bottom: 5%;
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    z-index: -1;
+  }
+  
+  /* Avatar image */
+  .imgcontainer img{
+    height: 150px;
+    width: 30%;
+    border-radius: 50%;
+  }
+  
+  /* Add padding to containers */
+  .log-container {
+    position: relative;
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 1px;
+  }
+  span.register{
+    float: left;
+    padding-bottom: 4px;
+  }
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+
+/* cart */
+.aquarium-head{
+    padding: 8px;
+    height: 100px;
+    width: 100%;
+    background: rgb(170, 127, 127);
+}
+.aquarium-head h3{
+    padding: 8px;
+    font-size: 50px;
+    text-align: center;
+    color: orange;
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.aquarium-list{
+    height: 500px;
+    width: 100%;
+    background: black;
+}
+
+.aquarium-list-1{
+    height: 500px;
+    width: 33.33%;
+    background: white;
+    float: left;
+    align-items: center;
+}
+.list-a{
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+    width: 95%;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+}
+.list-a img, .list-b img, .list-c img{
+    height: 420px;
+    width: 95%;
+    padding: 9px;
+}
+.aquarium-list-2{
+    height: 500px;
+    width: 33.33%;
+    background: white;
+    float: left;
+}
+.list-b{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 95%;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+}
+.aquarium-list-3{
+    height: 500px;
+    width: 33.33%;
+    background: white;
+    float: left;
+}
+.list-c{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 95%;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.contact-head{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+.contact-head h4{
+    padding: 9 px;
+    font-size: 20px;
+    color: #2bab0d;
+}
+.contact-head h3{
+    padding: 8px;
+    font-size: 25px;
+    color: #e91e63;
+}
+.contact-first{
+    width: 100%;
+    height: 150px;
+}
+.contact-1{
+    width: 33.33%;
+    height: 150px;
+    float: left;
+    position: relative;
+}
+.contact-2{
+    width: 33.33%;
+    height: 150px;
+    float: left;
+    position: relative;
+}
+.contact-3{
+    width: 33.33%;
+    height: 150px;
+    float: left;
+    position: relative;
+}
+.contact-1 .fa, .contact-2 .fa, .contact-3 .fa{
+    margin-right: 8px;
+}
+.contact-1 h4, .contact-2 h4, .contact-3 h4{
+    position: absolute;
+    left: 10%;
+    font-size: 18px;
+}
+.form-head{
+    height: 520px;
+    width: 100%;
+}
+.gmap{
+    height: 520px;
+    width: 50%;
+    float: left;
+    position: relative;
+}
+.complaint-form{
+    height: 520px;
+    width: 50%;
+    float: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+.complaint-form h3{
+    padding: 20px;
+    font-size: 30px;
+    align-content: center;
+}
+.complaint-form h4{
+    padding: 10px;
+    font-size: 25px;
+    align-items: center;
+}
+.gmap-sub{
+    height: 460px;
+    width: 90%;
+    position: absolute;
+    left: 7%;
+    border: 2px solid black;
+}
+.gmap-sub iframe{
+    height: 100%;
+    width: 100%;
+}
+
+.terms-c{
+    width: 100%;
+    text-align: center;
+}
+.terms-c {
+    font-size: 25px;
+}
+.terms-c h3{
+    color: red;
+}
+.policy{
+    height: 850px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.policy-a h2{
+    font-size: 40px;
+    color: #24262b;
+}
+.policy-a h3{
+    font-size: 35px;
+    color: red;
+}
+.policy-a p{
+    font-size: 25px;
+}
+.policy-a{
+    height: 850px;
+    position: absolute;
+    width: 60%;
+    left: 20%;
+}
+
+

@@ -1,0 +1,380 @@
+<?php
+session_start();
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petsplay</title>
+    <link rel="stylesheet" href="webstyle.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <!-- header line -->
+    <div class="main-head">
+        <div class="name-head">
+            <div class="logo">
+                <img src="images/dog-jumping-logo-design-template-home-pets-store-veterinary-clinic-logotype-concept-icon_126523-635.png">
+            </div>
+            <div class="brand-name">
+                <h1>PETSPLAY</h1>
+            </div>
+
+        </div>
+        <div class="sub-top">
+            <div class="mail-head">
+                <ul>
+                    <li><h3 style="color: red;">Contact Us On : </h3></li>
+                    <li><h4><i class="fa fa-envelope"></i>petsplay@gmail.com</h4></li>
+                    <li><h4><i class="fa fa-tty"></i>+91 12345 67890</h4></li>
+                </ul>
+            </div>
+            <div class="soc-head">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+
+            </div>
+        </div>
+        <div class="sub-bottom">
+            <ul>
+                <li class="active"><a href="home.html"><i class="fa fa-house"></i>Home</a></li>
+                <li><a href="about.html"><i class="fa fa-user"></i>About</a></li>
+                <li><a href="login.html"><i class="fa fa-right-to-bracket"></i>Login</a></li>
+                <li><a href="service.html"><i class="fa fa-clone"></i>Services</a></li>
+                <li><a href="#"><i class="fa fa-paw"></i>Pets</a>
+                    <div class="pet-menu-1">
+                        <ul>
+                            <li><a href="dog.html">Dog</a></li>
+                            <li><a href="cat.html">Cat</a></li>
+                            <li><a href="bird.html">Bird</a></li>
+                            <li><a href="aquarium.html">Aquarium fish</a></li>
+                            <li><a href="rabbit.html">Rabbit</a></li>
+                            <li><a href="smallpet.html">Small Pets</a></li>
+
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="contact.html"><i class="fa fa-phone"></i>Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- welcome line -->   
+    <div class="wc-line">
+    <marquee direction="left" style="padding: 4px;">**WELCOME TO OUR PETSTORE WEBSITE.**  WE PROVIDE BEST SERVICES & BEST OFFERS TO OUR CUSTOMERS!. </marquee>
+    </div>
+
+    <div class="slideshow-main">
+             
+           <img src="images/ws_Aquarium_852x480.jpg">
+           <img src="images/OKXTH1sFxa22Iwtb0H49D0bird-play.png">
+           <img src="images/4577868.jpg">
+           <img src="images/pets-banner.jpg">
+
+    </div>
+
+
+    <!-- about line -->
+    <div class="about-main">
+        <div class="abt-det">
+            <div class="sub-det">
+                <h3>ABOUT US</h3>
+                <br>
+                <h2>Welcome to PETSPLAY</h2>
+                <br>
+                <p>We are a team of passionate pet owners who believe that all animals deserve the best care
+                possible. We strive to provide high-quality products that will make it easier for pet owners to
+                give their furry friends the love and attention they need. Our mission is to create products that
+                enhance the bond between pets and their owners, ensuring a healthy and happy life for both.
+                We are committed to providing only the best products and services, so you can trust us to meet your pet's needs.
+                </p>
+            </div>
+        </div>
+        <div class="pets-image1">
+            <img src="images/golden_retiver_cat_cropped.jpg">
+
+        </div>
+        <div class="pets-image2">
+            <img src="images/Parakeets.jpeg">
+        </div>
+    </div>
+    <div class="about-bottom">
+        <div class="det-a">
+            <i class="fa-solid fa-people-line"></i>
+            <br>
+            <h3>13,84,283</h3>
+            <br>
+            <h4>Customers</h4>
+        </div>
+        <div class="det-b">
+            <i class="fa-solid fa-shop"></i>
+            <br>
+            <h3>2265</h3>
+            <br>
+            <h4>Shops</h4>
+        </div>
+        <div class="det-c">
+            <i class="fa-solid fa-user-doctor"></i>
+            <br>
+            <h3>9716</h3>
+            <br>
+            <h4>Staffs</h4>
+        </div>
+        <div class="pets-image3">
+            <img src="images/large-glass-aquarium-with-fish-generative-ai_169016-28881.avif">
+        </div>
+        <div class="pets-image4">
+            <img src="images/photo-1518796745738-41048802f99a.jpg">
+        </div>
+    </div>
+
+
+    
+    <!-- pets -->
+    <div class="pet-container">
+        <h3>Pets</h3>
+    </div>
+    <div class="pets-det1">
+        <div class="dog-list">
+            <img src="images/dog.jpeg">
+            <a href="dog.html"><button class="btn_pet">Dogs</button></a>
+        </div>
+        <div class="cat-list">
+            <img src="images/cat2.jpg">
+            <a href="cat.html"><button class="btn_pet">Cats</button></a>
+        </div>
+        <div class="bird-list">
+            <img src="images/bird.jpg">
+            <a href="bird.html"><button class="btn_pet">Birds</button></a>
+        </div>
+    </div>
+    <div class="pets-det2">
+        <div class="aquatic-list">
+            <img src="images/fish.jpg">
+            <a href="aquarium.html"><button class="btn_pet">Aquatic</button></a>
+        </div>
+        <div class="rabbit-list">
+            <img src="images/rabbit.webp">
+            <a href="rabbit.html"><button class="btn_pet">Rabbit</button></a>
+        </div>
+        <div class="smallpet-list">
+            <img src="images/small pets.jpg">
+            <a href="smallpet.html"><button class="btn_pet">Small Pet</button></a>
+        </div>
+    </div>
+
+
+
+    <!-- video line -->
+    <div class="vid-main">
+        <div class="det-abt">
+            <p style="padding: 25px; font-size: 22px;">A pet, or companion animal, is an animal kept primarily for a person's company or entertainment rather than as a working animal, livestock, or a laboratory animal. Popular pets are often considered to have attractive/cute appearances, intelligence, and relatable personalities, but some pets may be taken in on an altruistic basis (such as a stray animal) and accepted by the owner regardless of these characteristics.
+
+                Two of the most popular pets are dogs and cats. Other animals commonly kept include rabbits; ferrets; pigs; rodents such as gerbils, hamsters, chinchillas, rats, mice, and guinea pigs; birds such as parrots, passerines, and fowls; reptiles such as turtles, lizards, snakes, and iguanas; aquatic pets such as fish, freshwater snails, and saltwater snails; amphibians such as frogs and salamanders; and arthropod pets such as tarantulas and hermit crabs. Small pets may be grouped together as pocket pets, while the equine and bovine group include the largest companion animals.</p>
+
+        </div>
+        <div class="vid-tab">
+            <iframe width="100%" height="450px" src="https://www.youtube.com/embed/NN7EjwAOu9E "></iframe>
+        </div>
+    </div>
+
+    
+    <!-- service line -->
+    <div class="ser-main">
+        <h4>Our Services</h4>
+        <h2>Explore Our Services</h2>
+    </div>
+    <div class="ser-det1">
+        <a href="#">
+        <div class="ser-a">
+            <i class="fa-solid fa-shield-dog"></i>
+            <br><br>
+            <h3>Dog Grooming</h3>
+        </div>
+        </a>
+        <a href="#">
+        <div class="ser-b">
+            <i class="fa-solid fa-shield-cat"></i>
+            <br><br>
+            <h3>Cat Grooming</h3>
+        </div>
+        </a>
+        <a href="#">
+        <div class="ser-c">
+            <i class="fa-solid fa-certificate"></i>
+            <br><br>
+            <h3>Dog Training</h3>
+        </div>
+        </a>
+    </div>
+    <div class="ser-det2">
+        <a href="#">
+        <div class="ser-d">
+            <i class="fa-solid fa-carrot"></i>
+            <br><br>
+            <h3>Pets Food</h3>
+        </div>
+        </a>
+        <a href="#">
+        <div class="ser-e">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <br><br>
+            <h3>Pets Accessories</h3>
+        </div>
+        </a>
+        <a href="#">
+        <div class="ser-f">
+            <i class="fa-solid fa-ring"></i>
+            <br><br>
+            <h3>Aquarium & Pond</h3>
+        </div>
+        </a>
+    </div>
+
+
+
+    <!-- comment line -->
+    <div class="cmt">
+        <div class="test-container">
+            <div class="indicator">
+                <span class="btn t-active"></span>
+                <span class="btn"></span>
+                <span class="btn"></span>
+                <span class="btn"></span>
+            </div>
+            <div class="testimonial">
+                <div class="slide-row" id="slide">
+                    <div class="slide-col">
+                        <div class="user-text">
+                            <p>Wonderful place high good quality dog food & toys. Great service for doggy bathing etc. Excellent value for your money. Dog food may seem pricey but it is top quality with no nasty fillers/additives
+                                Dogs love the pampering</p>
+                            <h3>Jacob Linchon</h3>
+                            <p>Business man</p>
+                        </div>
+                        <div class="user-img">
+                            <img src="images/img2.jpg">
+                        </div>
+                    </div>
+                    <div class="slide-col">
+                        <div class="user-text">
+                            <p></p>
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                        <div class="user-img">
+                            <img src="images/img5.jpg">
+                        </div>
+                    </div>
+                    <div class="slide-col"> 
+                        <div class="user-text">
+                            <p></p>
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                        <div class="user-img">
+                            <img src="images/img6.jpg">
+                        </div>
+                    </div>
+                    <div class="slide-col">
+                        <div class="user-text">
+                            <p></p>
+                            <h3>Jacob Linchon</h3>
+                            <p></p>
+                        </div>
+                        <div class="user-img">
+                            <img src="images/img7.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- staff line -->
+    <div class="staff-head"><h3>Our Experts</h3></div>
+    <div class="staff-det">    
+        <div class="st-a">
+            <div class="staff-1">
+                <img src="images/Staff-groomer.jpg">
+                <h2>John doe</h2>
+                <p>Pet Groomer</p>
+            </div>
+        </div>
+        <div class="st-b">
+            <div class="staff-2">
+                <img src="images/Staff-trainer.jpg">
+                <h2>Adam Smith</h2>
+                <p>Pet Trainer</p>
+            </div>
+        </div>
+        <div class="st-c">
+            <div class="staff-3">
+                <img src="images/Staff-vet.jpg">
+                <h2>Henry Brown</h2>
+                <p>Vet Doctor</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- footer line -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>PETSPLAY</h4>
+                    <ul>
+                        <li><a href="about.html">about us</a></li>
+                        <li><a href="service.html">our services</a></li>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                        <li><a href="privacy.html">privacy policy</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>pets</h4>
+                    <ul>
+                        <li><a href="dog.html">Dogs</a></li>
+                        <li><a href="cat.html">Cats</a></li>
+                        <li><a href="bird.html">Birds</a></li>
+                        <li><a href="aquarium.html">Aquarium</a></li>
+                        <li><a href="rabbit.html">Rabbit</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>services</h4>
+                    <ul>
+                        <li><a href="#">adopt pet</a></li>
+                        <li><a href="#">dog groooming</a></li>
+                        <li><a href="#">cat groooming</a></li>
+                        <li><a href="#">pet foods</a></li>
+                        <li><a href="#">vet doctor</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="webscript.js"></script>
+    
+</body>
+</html>
